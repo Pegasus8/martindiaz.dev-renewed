@@ -1,0 +1,16 @@
+{
+  "name": "martindiaz.dev",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "prettier": "^2.7.1"
+  }
+}
