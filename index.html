@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="w-full h-full">
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -19,36 +19,40 @@
 
         <link rel="stylesheet" href="/style/style.css" />
     </head>
-    <body>
+    <body class="w-full h-full">
         <div class="flex flex-col items-center justify-center h-full w-full">
-            <div class="flex flex-col items-center text-center p-4 my-auto">
+            <div
+                class="flex flex-col items-center justify-center text-center p-4 my-auto"
+            >
                 <img
                     src="assets/img/cv_photo_portrait.png"
                     alt="Martín Díaz's photo"
-                    class="aspect-square w-60 md:w-72 self-center rounded-full ring ring-slate-400/80 ring-offset object-cover mb-5"
+                    class="aspect-square w-60 md:w-72 rounded-full ring ring-slate-400/80 object-cover mb-5"
                 />
 
-                <h1 class="title !text-slate-400 text-6xl md:text-7xl">
+                <h1 class="title text-slate-400 text-6xl md:text-7xl">
                     Martín Díaz
                 </h1>
 
-                <h3 class="description text-secondary !text-slate-500">
+                <h2 class="text-secondary text-slate-500 text-2xl my-1">
                     Full Stack Developer
-                </h3>
+                </h2>
 
-                <div class="flex gap-3 justify-center items-center my-4">
+                <div class="flex items-center my-4 gap-3">
                     <a
-                        class="icon !fill-slate-500"
                         href="https://github.com/Pegasus8"
                         rel="noreferrer"
+                        title="GitHub"
+                        target="_blank"
                     >
-                        <img src="assets/social/github.svg" alt="" class="" />
+                        <img src="assets/social/github.svg" alt="" />
                     </a>
 
                     <a
-                        class="icon"
                         href="https://www.linkedin.com/in/mart%C3%ADn-d%C3%ADaz-%C3%A1lvarez-b608a5215/"
                         rel="noreferrer"
+                        title="LinkedIn"
+                        target="_blank"
                     >
                         <img src="assets/social/linkedin.svg" alt="" />
                     </a>
@@ -56,7 +60,7 @@
             </div>
 
             <footer>
-                <div class="text-secondary !text-slate-500 flex gap-1 p-4">
+                <div class="text-secondary text-slate-500 flex gap-1 p-4">
                     <img src="assets/icons/map-pin.svg" alt="" />
                     <p>Montevideo, Uruguay</p>
                 </div>

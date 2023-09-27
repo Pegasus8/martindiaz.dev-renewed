@@ -13,40 +13,12 @@
 html,
 body {
   background-color: var(--bg-color);
-  font-size: 16px;
-  height: 100%;
-  width: 100%;
 }
 
 .title {
-  /* font-size: var(--title-fz); */
-  /* font-family: 'Raleway', sans-serif;
-  font-family: "Fenix", serif; */
   font-family: 'Roboto Slab', serif;
-  /* line-height: normal; */
-  color: var(--primary-color);
-  margin: 0;
-}
-
-.description {
-  font-size: var(--description-fz);
-  margin: 0.2rem 0;
-}
-
-.location > img {
-  height: 20px;
-  width: 20px;
 }
 
 .text-secondary {
   font-family: "Open Sans", sans-serif;
-  font-weight: normal;
-}
-
-.main-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
 }
