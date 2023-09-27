@@ -1,59 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Martín Díaz</title>
+<html lang="en" class="w-full h-full">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Martín Díaz</title>
 
-    <meta name="author" content="Martín Díaz" />
-    <meta name="description" content="Martín Díaz, a Full Stack Developer." />
-    <meta
-      name="keywords"
-      content="developer, frontend, backend, full stack, developer, dev, programmer, github, pegasus8, golang, c#, csharp, rust, python, javascript, css, uruguay"
-    />
-    <meta name="robots" content="all" />
+        <meta name="author" content="Martín Díaz" />
+        <meta
+            name="description"
+            content="Martín Díaz, a Full Stack Developer."
+        />
+        <meta
+            name="keywords"
+            content="developer, frontend, backend, full stack, developer, dev, programmer, github, pegasus8, golang, c#, csharp, rust, python, javascript, css, uruguay"
+        />
+        <meta name="robots" content="all" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fenix&family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="stylesheet" href="/style/style.css" />
+    </head>
+    <body class="w-full h-full">
+        <div class="flex flex-col items-center justify-center h-full w-full">
+            <div
+                class="flex flex-col items-center justify-center text-center p-4 my-auto"
+            >
+                <img
+                    src="assets/img/cv_photo_portrait.png"
+                    alt="Martín Díaz's photo"
+                    class="aspect-square w-60 md:w-72 rounded-full ring ring-slate-400/80 object-cover mb-5"
+                />
 
-    <link rel="stylesheet" href="/style/reset.css" />
-    <link rel="stylesheet" href="/style/style.css" />
-  </head>
-  <body>
-    <div class="main-container">
-      <div class="container container-col">
-        <h1 class="title">Martín Díaz</h1>
+                <h1 class="title text-slate-400 text-6xl md:text-7xl">
+                    Martín Díaz
+                </h1>
 
-        <h3 class="description text-secondary">Full Stack Developer</h3>
+                <h2 class="text-secondary text-slate-500 text-2xl my-1">
+                    Full Stack Developer
+                </h2>
 
-        <div class="container social">
-          <a class="icon" href="https://github.com/Pegasus8" rel="noreferrer">
-            <img src="assets/social/github.svg" alt="" />
-          </a>
+                <div class="flex items-center my-4 gap-3">
+                    <a
+                        href="https://github.com/Pegasus8"
+                        rel="noreferrer"
+                        title="GitHub"
+                        target="_blank"
+                    >
+                        <img src="assets/social/github.svg" alt="" />
+                    </a>
 
-          <a
-            class="icon"
-            href="https://www.linkedin.com/in/mart%C3%ADn-d%C3%ADaz-%C3%A1lvarez-b608a5215/"
-            rel="noreferrer"
-          >
-            <img src="assets/social/linkedin.svg" alt="" />
-          </a>
+                    <a
+                        href="https://www.linkedin.com/in/mart%C3%ADn-d%C3%ADaz-%C3%A1lvarez-b608a5215/"
+                        rel="noreferrer"
+                        title="LinkedIn"
+                        target="_blank"
+                    >
+                        <img src="assets/social/linkedin.svg" alt="" />
+                    </a>
+                </div>
+            </div>
+
+            <footer>
+                <div class="text-secondary text-slate-500 flex gap-1 p-4">
+                    <img src="assets/icons/map-pin.svg" alt="" />
+                    <p>Montevideo, Uruguay</p>
+                </div>
+            </footer>
         </div>
-      </div>
 
-      <footer>
-        <div class="container location text-secondary">
-          <img src="assets/icons/map-pin.svg" alt="" />
-          <p>Montevideo, Uruguay</p>
-        </div>
-      </footer>
-    </div>
-
-    <script type="module" src="/main.js"></script>
-  </body>
+        <script type="module" src="/main.js"></script>
+    </body>
 </html>
