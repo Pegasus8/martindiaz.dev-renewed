@@ -1,1 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#1f2937"></rect><path fill="#fff" d="M77.49 28.22L77.49 28.22L79.56 74.12L87.30 77.27L86.77 79.25L65.44 79.25L64.89 77.27L68.94 75.29Q71.83 73.94 71.73 71.78L71.73 71.78L69.75 27.68L52.47 77.45L46.89 79.25L45.19 78.35L28.36 27.77L25.84 74.12L32.67 77.27L32.13 79.25L13.23 79.25L12.70 77.27L17.64 75.20Q19.89 74.21 20.25 73.22L20.25 73.22Q20.34 72.77 20.44 71.78L20.44 71.78L22.69 25.88L14.95 22.73L15.48 20.75L33.66 20.75L34.84 21.65L50.05 68.63L65.97 20.75L84.69 20.75L85.23 22.73L80.28 24.80Q77.41 25.97 77.49 28.22Z"></path></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="256"
+   height="256"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.921875"
+     inkscape:cx="126.91525"
+     inkscape:cy="126.91525"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <rect
+     width="100"
+     height="100"
+     rx="20"
+     fill="#1f2937"
+     id="rect1" />
+  <path
+     style="font-size:75px;font-family:'Roboto Slab';-inkscape-font-specification:'Roboto Slab, Normal';fill:#94a3b8;stroke-width:0.390625"
+     d="m 15.374756,76.660156 v -5.639648 l 5.786133,-1.098633 V 30.114746 l -5.786133,-1.098633 v -5.676269 h 5.786133 13.220215 l 15.637207,38.562011 h 0.219726 L 65.39917,23.339844 h 19.226074 v 5.676269 l -5.822754,1.098633 v 39.807129 l 5.822754,1.098633 v 5.639648 H 63.787842 v -5.639648 l 6.115722,-1.098633 V 57.507324 l 0.07324,-23.327637 -0.183106,-0.03662 -16.516113,41.308594 h -6.70166 L 29.58374,34.362793 l -0.183105,0.03662 0.476074,22.485352 v 13.037109 l 6.335449,1.098633 v 5.639648 z"
+     id="text1"
+     aria-label="M" />
+</svg>
