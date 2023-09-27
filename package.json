@@ -13,5 +13,9 @@
     "prettier": "^2.7.1",
     "tailwindcss": "^3.3.3",
     "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.0.12",
+    "@fontsource/roboto-slab": "^5.0.12"
   }
 }
